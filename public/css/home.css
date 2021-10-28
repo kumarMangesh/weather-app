@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Arvo&display=swap');
+
+body{
+    color:#333333;
+    background-color: aliceblue;
+    font-family: 'Architects Daughter', cursive;
+}
+.wrapper{
+    max-width: 70%;
+    margin:0px 4rem;
+}
+
+header{
+    font-size: 1.5rem;
+    padding:10px;
+}
+footer{
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+}
+#success-data{
+    background-color: rgb(255, 254, 240);
+
+}
+input [type=text]{
+border-bottom: black;
+background-color: transparent;
+border:none;
+}
