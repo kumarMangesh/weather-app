@@ -9,7 +9,7 @@ button.addEventListener('click',(e)=>{
     const inputText=document.getElementById('location').value;
     console.log(inputText)
 
-    fetch(`http://localhost:3000/weather?search=${inputText}`)
+    fetch(`/weather?search=${inputText}`)
 .then(response=>{response.json().then((data)=>{
     if(data.error){
         console.log(data.error);
