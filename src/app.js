@@ -29,9 +29,9 @@ app.get('/',(req,res)=>{
 })
 app.get('/about',(req,res)=>{
     res.render('about',{
-    title:"Tells weather of locations on earth.",
-    info:"Weather data render around the world",
-    footerText:"created by Mangesh"
+    title:"Page is under construction!.",
+    info:"",
+    footerText:""
     })
 })
 
